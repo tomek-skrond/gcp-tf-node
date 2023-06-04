@@ -5,6 +5,13 @@ This just a snippet to reuse for building bigger projects, it is mostly based on
 
 
 ### Prerequisites
+Apart from terraform, it is required to have a GCP account with:
+- A project
+- Created service account for terraform activities in a project
+
+Optional:
+- Configured gcloud CLI (optional)
+
 Created using the following Terraform version:
 ```
 $ terraform -version
